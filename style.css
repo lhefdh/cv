@@ -57,5 +57,10 @@ section{
 .corps{
     box-sizing: border-box;
     width: 790px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+h2{
+    background-color: #dbc2a4; 
 }
 
