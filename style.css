@@ -1,0 +1,61 @@
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+}
+.entete{
+    display:flex;
+    flex-direction: column;
+    background-color: #782221;
+    box-sizing: border-box ;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 3;
+    width: 1160px;
+    color:white;
+}
+.entete__nom{
+    text-transform: uppercase;
+}
+.coordonnées{
+    box-sizing: border-box ;
+    background-color: #2c1d27;
+    display: flex;
+    justify-content: space-around;
+    width: 1160px;
+    color:white;
+}
+.coordonnées__mail{
+    color:white;
+}
+.coordonnées__tel{
+    color:white;
+}
+.liseré{
+    box-sizing: border-box;
+    background-color: #782221;
+    width: 370px;
+    padding-right: 50px;
+    color:white
+}
+.liseré__titre{
+    background-color: #dbc2a4;
+    box-sizing: border-box ;
+    padding-left: 30px;
+    width: 320px;
+    color:black;
+}
+.liseré__a-propos{
+    box-sizing: border-box ;
+    padding-left: 30px;
+    width: 320px;
+    text-indent: 15px;
+}
+.corps{
+    box-sizing: border-box;
+    width: 790px;
+}
+
