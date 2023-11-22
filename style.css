@@ -67,5 +67,6 @@ footer{
     box-sizing: border-box ;
     width: 1160px;
     background-color: #782221;
+    position: relative;;
 }
 
