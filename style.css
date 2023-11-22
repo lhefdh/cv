@@ -63,4 +63,10 @@ section{
 h2{
     background-color: #dbc2a4; 
 }
+footer{
+    box-sizing: border-box ;
+    padding-left: 30px;
+    width: 1160px;
+    background-color: #782221;
+}
 
