@@ -1,4 +1,4 @@
-section{
+body{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -18,7 +18,7 @@ section{
     width: 1160px;
     color:white;
 }
-figure{
+.entete__figure{
     width: 90px;
     height: 90px;
 }
@@ -31,7 +31,7 @@ img{
 .entete__nom{
     text-transform: uppercase;
 }
-.coordonnées{
+.entete__coordonnées{
     box-sizing: border-box ;
     background-color: #2c1d27;
     display: flex;
@@ -39,10 +39,10 @@ img{
     width: 1160px;
     color:white;
 }
-.coordonnées__mail{
+.entete__mail{
     color:white;
 }
-.coordonnées__tel{
+.entete__tel{
     color:white;
 }
 .liseré{
@@ -65,7 +65,7 @@ img{
     width: 320px;
     text-indent: 15px;
 }
-.corps{
+main{
     box-sizing: border-box;
     width: 790px;
     padding-left: 40px;
@@ -75,19 +75,25 @@ img{
 h2{
     background-color: #dbc2a4; 
 }
-.reseaux{
+footer{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     box-sizing: border-box ;
     width: 1160px;
     background-color: #782221;
 }
-.reseaux__img1{
+.reseaux{
+    display:block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.reseaux-sociaux__img1{
     width: 50px;
     height: 50px;
 }
-.reseaux__img2{
+.reseaux-sociaux__img2{
     width: 50px;
     height: 50px;
 }
