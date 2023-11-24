@@ -44,6 +44,7 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0 0 20px #dbc2a4;
 }
 .entete__img:hover{
 cursor:zoom-in ;
@@ -84,6 +85,7 @@ cursor:zoom-in ;
     padding-left: 30px;
     width: 320px;
     text-indent: 15px;
+    text-align: justify;
 }
 main{
     box-sizing: border-box;
@@ -100,17 +102,15 @@ footer{
     width: 1160px;
     background-color: #782221;
 }
-.reseaux{
-    display:block;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 .reseaux-sociaux__img1{
     width: 50px;
     height: 50px;
 }
 .reseaux-sociaux__img2{
+    width: 50px;
+    height: 50px;
+}
+.reseaux-sociaux__img3{
     width: 50px;
     height: 50px;
 }
@@ -120,6 +120,10 @@ footer{
 .reseaux-sociaux__img2:hover{
     opacity:0.5 ;
 }
+.reseaux-sociaux__img3:hover{
+    opacity:0.5 ;
+}
+
 
 
 
